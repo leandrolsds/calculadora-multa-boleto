@@ -6,7 +6,7 @@
     border: none;
 }
 header{
-    background: linear-gradient( blueviolet, aliceblue);
+    background: linear-gradient( rgb(106, 230, 252), aliceblue);
     width: 100%;
     top: 0;
     text-align: center;
@@ -41,34 +41,36 @@ label {
 input {
     text-align: center;
     padding: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
     border-radius: 10px;
     width: 250px;
 }
 input:focus-visible {
-    outline-color: rgb(36, 4, 95);
+    outline-color: rgb(105, 162, 248);
 }
 input::placeholder {
-    color: aliceblue;
+    color: rgb(190, 194, 199);
 }
 #calcular_multa {
     font-size: 18px;
     padding: 10px;
     border-radius: 10px;
-    background: linear-gradient( 45deg, rgb(132, 0, 255),rgb(112, 150, 184), rgb(33, 9, 71));
-    color: white;
+    background: linear-gradient( 45deg, rgb(106, 230, 252),rgb(112, 150, 184), rgb(106, 230, 252));
+    
     margin: 10px 0;
 }
-div {
-    text-align: center;
-    padding-bottom: 2rem;
+#div_containner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 2rem;
 }
-div p {
-    margin-bottom: 5px;
+#div_containner p {
+    margin-bottom: 10px;
 }
 footer {
-    background: linear-gradient( aliceblue, blueviolet);
+    background: linear-gradient( aliceblue, rgb(106, 230, 252));
     display: flex;
     align-items: center;
     justify-content: center;
