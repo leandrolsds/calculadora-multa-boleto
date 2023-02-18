@@ -11,7 +11,7 @@ function calcularMulta() {
     let calculo_dias = 1000 * 60 * 60 * 24; //milisegundos * segundos * minutos * horas dia
     let quant_dias = Math.ceil(diferenca_datas / calculo_dias);
 
-    let calculo_multa = ((valor_multa * valor_divida) / 100);
+    let calculo_multa = ((valor_multa * valor_divida) / 100).toFixed(2);
     let calculo_mora = (((valor_mora * valor_divida /100)/30)*quant_dias).toFixed(2);
     let totalAPagar = Number(valor_divida) + Number(calculo_multa) + Number(calculo_mora);
 
