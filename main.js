@@ -25,9 +25,9 @@ btn.addEventListener("click", (e) => {
             let dias_atraso = document.getElementById("dias_atraso");
             dias_atraso.innerHTML = "Dias em atraso: "+quant_dias;
                 let juros_multa = document.getElementById("juros_multa");
-                juros_multa.innerHTML = "valor da multa: R$ "+calculo_multa;
+                juros_multa.innerHTML = "valor da multa em real: R$ "+calculo_multa;
                 let juros_mora = document.getElementById("juros_mora");
-                juros_mora.innerHTML = "valor do juros mora: "+calculo_mora+"%";
+                juros_mora.innerHTML = "valor do juros mora em real: "+calculo_mora;
                 let valor_total = document.getElementById("valor_total");
                 valor_total.innerHTML = "Valor total com multa: R$ "+totalAPagar;
             }else {
