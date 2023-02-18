@@ -60,6 +60,11 @@ input::placeholder {
     
     margin: 10px 0;
 }
+#Limpar_form {
+    background: linear-gradient( 45deg, rgb(255, 2, 57),rgb(112, 150, 184), rgb(255, 2, 57));
+    color: white;
+    font-size: 18px;
+}
 #div_containner {
     align-items: center;
     display: flex;
