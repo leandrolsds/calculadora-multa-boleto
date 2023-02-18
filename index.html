@@ -22,15 +22,15 @@
             <input type="number" id="valor_mora" placeholder="ex: 1">
             <label for="data_vencimento">Selecione a data do vencimento:</label>
             <input type="date" id="data_vencimento">
-            <input id="calcular_multa" type="submit" value="Calcular multa">
+            <input id="calcular_multa" onclick="calcularMulta()" type="submit" value="Calcular multa">
         </form>
         <div id="div_containner">
             <div>
-                <p id="valor_original">Valor Original da divida: R$1500</p>
-                <p id="dias_atraso">Dias em atraso: 15</p>
-                <p id="valor_juros">valor da multa: R$2.00</p>
-                <p id="valor_juros">valor do juros mora: 1% ao dia</p>
-                <p id="valor_total">Valor total com multa: R$1522,50</p>
+                <p id="valor_original"></p>
+                <p id="dias_atraso"></p>
+                <p id="juros_multa"></p>
+                <p id="juros_mora"></p>
+                <p id="valor_total"></p>
             </div>
         </div>
     </main>
