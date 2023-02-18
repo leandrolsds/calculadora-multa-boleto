@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+header{
+    background: linear-gradient( blueviolet, aliceblue);
+    width: 100%;
+    top: 0;
+    text-align: center;
+    font-size: 12px;
+    padding: .5rem;
+    height: 70px;
+    position: fixed;
+    
+}
+body {
+    margin-top: 70px;
+    height: calc(100vh - 100px);
+    background-color:aliceblue;
+}
+main {
+    margin: 0 auto;
+    padding: 15px 0;
+    
+}
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    color: rgb(75, 0, 145);
+}
+input {
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+    width: 250px;
+}
+input:focus-visible {
+    outline-color: rgb(36, 4, 95);
+}
+input::placeholder {
+    color: aliceblue;
+}
+#calcular_multa {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient( 45deg, rgb(132, 0, 255),rgb(112, 150, 184), rgb(33, 9, 71));
+    color: white;
+    margin: 10px 0;
+}
+div {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+div p {
+    margin-bottom: 5px;
+}
+footer {
+    background: linear-gradient( aliceblue, blueviolet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+@media screen and (min-width: 1024px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+    h2 {
+        margin-bottom: 30px;
+    }
+    #calcular_multa {
+        margin: 20px 0;
+    }
+    
+}
