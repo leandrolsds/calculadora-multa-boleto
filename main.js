@@ -40,3 +40,8 @@ btn.addEventListener("click", (e) => {
         valor_original.innerHTML = "Valor da divida deve ser maior que ZERO!";
     }
 });
+
+const refresh = document.getElementById("limpar_form");
+refresh.addEventListener('click', () => {
+    location.reload()
+})
